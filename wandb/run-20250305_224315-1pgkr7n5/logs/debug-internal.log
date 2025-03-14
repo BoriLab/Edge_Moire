@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:43:15.360047916+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/bori9691/2025/Edge_Moire/wandb/run-20250305_224315-1pgkr7n5/logs/debug-core.log"}
+{"time":"2025-03-05T22:43:15.463229948+09:00","level":"INFO","msg":"created new stream","id":"1pgkr7n5"}
+{"time":"2025-03-05T22:43:15.463256781+09:00","level":"INFO","msg":"stream: started","id":"1pgkr7n5"}
+{"time":"2025-03-05T22:43:15.463297984+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:43:15.463366143+09:00","level":"INFO","msg":"handler: started","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:43:15.463407707+09:00","level":"INFO","msg":"sender: started","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:43:15.788647605+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:50:10.164439905+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:50:10.164991229+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:50:11.16576942+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.158505093,"progress":"928B/928B"}],"total_operations":1}}
+{"time":"2025-03-05T22:50:11.265497671+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:50:12.551386986+09:00","level":"INFO","msg":"stream: closing","id":"1pgkr7n5"}
+{"time":"2025-03-05T22:50:12.551399314+09:00","level":"INFO","msg":"handler: closed","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:50:12.551415622+09:00","level":"INFO","msg":"sender: closed","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:50:12.551414184+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1pgkr7n5"}
+{"time":"2025-03-05T22:50:12.551498378+09:00","level":"INFO","msg":"stream: closed","id":"1pgkr7n5"}

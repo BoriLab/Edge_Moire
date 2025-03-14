@@ -1,0 +1,30 @@
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_setup.py:_flush():67] Configure stats pid to 830805
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/.config/wandb/settings
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/2025/Edge_Moire/wandb/settings
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250305_224315-1pgkr7n5/logs/debug.log
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250305_224315-1pgkr7n5/logs/debug-internal.log
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:init():761] calling init triggers
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'MODEL': 'EdgeWaveSuperposition', 'DATASET': 'QM9', 'DEPTH': 5, 'MLP_DIM': 256, 'HEADS': 32, 'FOCUS': 'gaussian', 'DROPOUT': 0.1, 'BATCH_SIZE': 512, 'LEARNING_RATE': 0.0005, 'WEIGHT_DECAY': 0.01, 'T_MAX': 200, 'ETA_MIN': 1e-07, 'DEVICE': 'cuda', 'SCALE_MIN': 0.6, 'SCALE_MAX': 3.0, 'WIDTH_BASE': 1.15, 'VERBOSE': True, '_wandb': {}}
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:init():784] starting backend
+2025-03-05 22:43:15,356 INFO    MainThread:830805 [wandb_init.py:init():788] sending inform_init request
+2025-03-05 22:43:15,358 INFO    MainThread:830805 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-05 22:43:15,359 INFO    MainThread:830805 [wandb_init.py:init():803] backend started and connected
+2025-03-05 22:43:15,359 INFO    MainThread:830805 [wandb_init.py:init():896] updated telemetry
+2025-03-05 22:43:15,362 INFO    MainThread:830805 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-05 22:43:15,786 INFO    MainThread:830805 [wandb_init.py:init():995] starting run threads in backend
+2025-03-05 22:43:15,825 INFO    MainThread:830805 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-05 22:43:15,825 INFO    MainThread:830805 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-05 22:43:15,825 INFO    MainThread:830805 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-05 22:43:15,825 INFO    MainThread:830805 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-05 22:43:15,826 INFO    MainThread:830805 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-05 22:50:10,163 INFO    MainThread:830805 [wandb_run.py:_finish():2112] finishing run mamum5-sungkyunkwan-university/edge_wave_superposition_eV/1pgkr7n5
+2025-03-05 22:50:10,163 INFO    MainThread:830805 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 22:50:10,164 INFO    MainThread:830805 [wandb_run.py:_restore():2324] restore
+2025-03-05 22:50:10,164 INFO    MainThread:830805 [wandb_run.py:_restore():2330] restore done
+2025-03-05 22:50:12,550 INFO    MsgRouterThr:830805 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-05 22:50:12,550 INFO    MainThread:830805 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-05 22:50:12,550 INFO    MainThread:830805 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-05 22:50:12,551 INFO    MainThread:830805 [wandb_run.py:_footer_sync_info():3919] logging synced files

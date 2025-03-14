@@ -1,0 +1,30 @@
+2025-03-05 13:55:46,768 INFO    MainThread:796355 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_setup.py:_flush():67] Configure stats pid to 796355
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/.config/wandb/settings
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/2025/Edge_Moire/wandb/settings
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250305_135546-1rsm67y8/logs/debug.log
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250305_135546-1rsm67y8/logs/debug-internal.log
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:init():761] calling init triggers
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'MODEL': 'Moire', 'DATASET': 'QM9', 'DEPTH': 8, 'MLP_DIM': 256, 'HEADS': 16, 'FOCUS': 'gaussian', 'DROPOUT': 0.1, 'BATCH_SIZE': 512, 'LEARNING_RATE': 0.0001, 'WEIGHT_DECAY': 0.0001, 'T_MAX': 200, 'ETA_MIN': 1e-07, 'DEVICE': 'cuda', 'SCALE_MIN': 0.6, 'SCALE_MAX': 3.0, 'WIDTH_BASE': 1.15, 'VERBOSE': True, '_wandb': {}}
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:init():784] starting backend
+2025-03-05 13:55:46,769 INFO    MainThread:796355 [wandb_init.py:init():788] sending inform_init request
+2025-03-05 13:55:46,771 INFO    MainThread:796355 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-05 13:55:46,771 INFO    MainThread:796355 [wandb_init.py:init():803] backend started and connected
+2025-03-05 13:55:46,772 INFO    MainThread:796355 [wandb_init.py:init():896] updated telemetry
+2025-03-05 13:55:46,775 INFO    MainThread:796355 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-05 13:55:47,178 INFO    MainThread:796355 [wandb_init.py:init():995] starting run threads in backend
+2025-03-05 13:55:47,214 INFO    MainThread:796355 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-05 13:55:47,215 INFO    MainThread:796355 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-05 13:55:47,215 INFO    MainThread:796355 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-05 13:55:47,215 INFO    MainThread:796355 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-05 13:55:47,215 INFO    MainThread:796355 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-05 14:00:42,195 INFO    MainThread:796355 [wandb_run.py:_finish():2112] finishing run mamum5-sungkyunkwan-university/moire_edge_eV/1rsm67y8
+2025-03-05 14:00:42,195 INFO    MainThread:796355 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 14:00:42,195 INFO    MainThread:796355 [wandb_run.py:_restore():2324] restore
+2025-03-05 14:00:42,195 INFO    MainThread:796355 [wandb_run.py:_restore():2330] restore done
+2025-03-05 14:00:44,768 INFO    MsgRouterThr:796355 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-05 14:00:44,768 INFO    MainThread:796355 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-05 14:00:44,769 INFO    MainThread:796355 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-05 14:00:44,769 INFO    MainThread:796355 [wandb_run.py:_footer_sync_info():3919] logging synced files

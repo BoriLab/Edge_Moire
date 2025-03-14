@@ -1,0 +1,25 @@
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/nn/modules/loss.py:101: UserWarning: Using a target size (torch.Size([512, 2, 174])) that is different to the input size (torch.Size([512, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_wave.py", line 122, in <module>
+    aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 404, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 367, in train
+    loss = self._loop(tup)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 334, in _loop
+    loss = self.criterion(y_hat, y)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 101, in forward
+    return F.l1_loss(input, target, reduction=self.reduction)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/nn/functional.py", line 3297, in l1_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/functional.py", line 73, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+RuntimeError: The size of tensor a (512) must match the size of tensor b (2) at non-singleton dimension 1

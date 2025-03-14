@@ -1,0 +1,65 @@
+{'Loss/train_step': 6.724586486816406}
+{'Loss/train_step': 1.149540662765503}
+{'Loss/train_step': 1.8765517473220825}
+{'Loss/train_step': 1.3871400356292725}
+{'Loss/train_step': 1.135866403579712}
+{'Loss/train_step': 1.0387349128723145}
+{'Loss/train_step': 0.944037914276123}
+{'Loss/train_step': 0.9326171875}
+{'Loss/train_step': 0.965541660785675}
+{'Loss/train_step': 0.9306068420410156}
+{'Loss/train_step': 0.8806173801422119}
+{'Loss/train_step': 0.9011033773422241}
+{'Loss/train_step': 0.8789947032928467}
+{'Loss/train_step': 0.9403197765350342}
+{'Loss/train_step': 0.9401822090148926}
+{'Loss/train_step': 0.8933877944946289}
+{'Loss/train_step': 0.8920343518257141}
+{'Loss/train_step': 0.8146284818649292}
+{'Loss/train_step': 0.8733999729156494}
+{'Loss/train_step': 0.8856039047241211}
+{'Loss/train_step': 0.885628342628479}
+{'Loss/train': 1.2883644148890057}
+{'Loss/eval': 0.9220038006510135}
+{'Loss/best_eval': 0.9220038006510135}
+{'Loss/train_step': 0.8475555181503296}
+{'Loss/train_step': 0.8347590565681458}
+{'Loss/train_step': 0.9120001792907715}
+{'Loss/train_step': 0.8464525938034058}
+{'Loss/train_step': 0.8599059581756592}
+{'Loss/train_step': 0.8436397910118103}
+{'Loss/train_step': 0.8459156155586243}
+{'Loss/train_step': 0.826054573059082}
+{'Loss/train_step': 0.8243143558502197}
+{'Loss/train_step': 0.850829005241394}
+{'Loss/train_step': 0.8077535629272461}
+{'Loss/train_step': 0.7922161817550659}
+{'Loss/train_step': 0.831371545791626}
+{'Loss/train_step': 0.7717211842536926}
+{'Loss/train_step': 0.8321729302406311}
+{'Loss/train_step': 0.8695391416549683}
+{'Loss/train_step': 0.843239963054657}
+{'Loss/train_step': 0.7910060286521912}
+{'Loss/train_step': 0.8014475703239441}
+{'Loss/train_step': 0.7741646766662598}
+{'Loss/train_step': 0.8250482678413391}
+{'Loss/train': 0.8370587034652578}
+{'Loss/eval': 0.9081903884650915}
+{'Loss/best_eval': 0.9081903884650915}
+{'Loss/train_step': 0.8258318901062012}
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_ev.py", line 106, in <module>
+    aliquot = Aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 208, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 167, in train
+    for step, tup in enumerate(self.train_dataloader):
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/bori9691/2025/Edge_Moire/utils/dataset.py", line 173, in collate_batch
+    pad_ei = torch.full((2, pad_size), -1, dtype=torch.long)  # 패딩 값은 -1로 설정 (원하는 값으로 수정 가능)
+KeyboardInterrupt

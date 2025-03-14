@@ -1,0 +1,83 @@
+{'epoch': 0, 'Loss/train_step': 6.803842544555664}
+{'epoch': 0, 'Loss/train_step': 6.767000675201416}
+{'epoch': 0, 'Loss/train_step': 6.675244331359863}
+{'epoch': 0, 'Loss/train_step': 6.465874671936035}
+{'epoch': 0, 'Loss/train_step': 4.619174003601074}
+{'epoch': 0, 'Loss/train_step': 1.50596022605896}
+{'epoch': 0, 'Loss/train_step': 1.202876329421997}
+{'epoch': 0, 'Loss/train_step': 1.0545940399169922}
+{'epoch': 0, 'Loss/train_step': 0.9994543790817261}
+{'epoch': 0, 'Loss/train_step': 1.0278210639953613}
+{'epoch': 0, 'Loss/train_step': 1.0652393102645874}
+{'epoch': 0, 'Loss/train_step': 1.0139225721359253}
+{'epoch': 0, 'Loss/train_step': 1.0305428504943848}
+{'epoch': 0, 'Loss/train_step': 1.0624265670776367}
+{'epoch': 0, 'Loss/train_step': 1.0020551681518555}
+{'epoch': 0, 'Loss/train_step': 0.990445613861084}
+{'epoch': 0, 'Loss/train_step': 1.0395272970199585}
+{'epoch': 0, 'Loss/train_step': 1.1224915981292725}
+{'epoch': 0, 'Loss/train_step': 1.0364208221435547}
+{'epoch': 0, 'Loss/train_step': 1.1965935230255127}
+{'epoch': 0, 'Loss/train_step': 1.5055068731307983}
+{'epoch': 0, 'Loss/train': 2.1931843288667623}
+{'epoch': 0, 'Loss/eval': 1.1290412931111737}
+{'epoch': 0, 'Loss/best_eval': 1.1290412931111737}
+{'epoch': 1, 'Loss/train_step': 1.1776340007781982}
+{'epoch': 1, 'Loss/train_step': 1.409254550933838}
+{'epoch': 1, 'Loss/train_step': 1.1747617721557617}
+{'epoch': 1, 'Loss/train_step': 1.0486829280853271}
+{'epoch': 1, 'Loss/train_step': 1.0423829555511475}
+{'epoch': 1, 'Loss/train_step': 0.9618277549743652}
+{'epoch': 1, 'Loss/train_step': 1.0335015058517456}
+{'epoch': 1, 'Loss/train_step': 0.985990583896637}
+{'epoch': 1, 'Loss/train_step': 1.0270214080810547}
+{'epoch': 1, 'Loss/train_step': 0.9892175197601318}
+{'epoch': 1, 'Loss/train_step': 1.0442930459976196}
+{'epoch': 1, 'Loss/train_step': 0.9660972356796265}
+{'epoch': 1, 'Loss/train_step': 1.0049636363983154}
+{'epoch': 1, 'Loss/train_step': 0.9929296374320984}
+{'epoch': 1, 'Loss/train_step': 0.9508110284805298}
+{'epoch': 1, 'Loss/train_step': 1.0209826231002808}
+{'epoch': 1, 'Loss/train_step': 0.989727258682251}
+{'epoch': 1, 'Loss/train_step': 0.9594864845275879}
+{'epoch': 1, 'Loss/train_step': 1.0123815536499023}
+{'epoch': 1, 'Loss/train_step': 1.0161840915679932}
+{'epoch': 1, 'Loss/train_step': 1.0608539581298828}
+{'epoch': 1, 'Loss/train': 1.0204242123226293}
+{'epoch': 1, 'Loss/eval': 1.6839623584083419}
+{'epoch': 2, 'Loss/train_step': 0.9892650246620178}
+{'epoch': 2, 'Loss/train_step': 1.0283892154693604}
+{'epoch': 2, 'Loss/train_step': 0.9725362062454224}
+{'epoch': 2, 'Loss/train_step': 0.9925276041030884}
+{'epoch': 2, 'Loss/train_step': 1.0308183431625366}
+{'epoch': 2, 'Loss/train_step': 0.988507091999054}
+{'epoch': 2, 'Loss/train_step': 1.0343587398529053}
+{'epoch': 2, 'Loss/train_step': 1.0242935419082642}
+{'epoch': 2, 'Loss/train_step': 1.0401018857955933}
+{'epoch': 2, 'Loss/train_step': 0.9621814489364624}
+{'epoch': 2, 'Loss/train_step': 1.0351697206497192}
+{'epoch': 2, 'Loss/train_step': 1.0177479982376099}
+{'epoch': 2, 'Loss/train_step': 1.0334062576293945}
+{'epoch': 2, 'Loss/train_step': 0.9767876267433167}
+{'epoch': 2, 'Loss/train_step': 1.0674993991851807}
+{'epoch': 2, 'Loss/train_step': 1.0033131837844849}
+{'epoch': 2, 'Loss/train_step': 0.9694786071777344}
+{'epoch': 2, 'Loss/train_step': 1.0000698566436768}
+{'epoch': 2, 'Loss/train_step': 1.0347568988800049}
+{'epoch': 2, 'Loss/train_step': 1.019877552986145}
+{'epoch': 2, 'Loss/train_step': 0.9709142446517944}
+{'epoch': 2, 'Loss/train': 1.0081353195735812}
+{'epoch': 2, 'Loss/eval': 1.5668617502625108}
+{'epoch': 3, 'Loss/train_step': 0.9888174533843994}
+{'epoch': 3, 'Loss/train_step': 1.0038723945617676}
+{'epoch': 3, 'Loss/train_step': 0.9717720746994019}
+{'epoch': 3, 'Loss/train_step': 0.9946915507316589}
+{'epoch': 3, 'Loss/train_step': 1.056520700454712}
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_wave.py", line 122, in <module>
+    aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 404, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 373, in train
+    total_train_loss += loss.item() * batch_size
+KeyboardInterrupt

@@ -1,0 +1,15 @@
+{"time":"2025-03-05T13:26:29.700642678+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/bori9691/2025/Edge_Moire/wandb/run-20250305_132629-jgm70nrq/logs/debug-core.log"}
+{"time":"2025-03-05T13:26:29.803280068+09:00","level":"INFO","msg":"created new stream","id":"jgm70nrq"}
+{"time":"2025-03-05T13:26:29.803303717+09:00","level":"INFO","msg":"stream: started","id":"jgm70nrq"}
+{"time":"2025-03-05T13:26:29.803353649+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:26:29.803408636+09:00","level":"INFO","msg":"sender: started","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:26:29.80342018+09:00","level":"INFO","msg":"handler: started","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:26:30.066222119+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T13:41:28.546857707+09:00","level":"INFO","msg":"stream: closing","id":"jgm70nrq"}
+{"time":"2025-03-05T13:41:28.546905668+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T13:41:28.547421799+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T13:41:29.399015256+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T13:41:29.737763629+09:00","level":"INFO","msg":"handler: closed","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:41:29.737785072+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:41:29.737801532+09:00","level":"INFO","msg":"sender: closed","stream_id":"jgm70nrq"}
+{"time":"2025-03-05T13:41:29.737841107+09:00","level":"INFO","msg":"stream: closed","id":"jgm70nrq"}

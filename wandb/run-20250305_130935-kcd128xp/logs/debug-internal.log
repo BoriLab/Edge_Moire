@@ -1,0 +1,16 @@
+{"time":"2025-03-05T13:09:35.873566165+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/bori9691/2025/Edge_Moire/wandb/run-20250305_130935-kcd128xp/logs/debug-core.log"}
+{"time":"2025-03-05T13:09:35.97600571+09:00","level":"INFO","msg":"created new stream","id":"kcd128xp"}
+{"time":"2025-03-05T13:09:35.976024102+09:00","level":"INFO","msg":"stream: started","id":"kcd128xp"}
+{"time":"2025-03-05T13:09:35.976096658+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:09:35.976132296+09:00","level":"INFO","msg":"handler: started","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:09:35.97617663+09:00","level":"INFO","msg":"sender: started","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:09:36.287386644+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T13:14:16.424778529+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T13:14:16.42532894+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T13:14:17.385514282+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T13:14:17.385633649+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-05T13:14:18.687556661+09:00","level":"INFO","msg":"stream: closing","id":"kcd128xp"}
+{"time":"2025-03-05T13:14:18.687571761+09:00","level":"INFO","msg":"handler: closed","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:14:18.687578467+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:14:18.687625568+09:00","level":"INFO","msg":"sender: closed","stream_id":"kcd128xp"}
+{"time":"2025-03-05T13:14:18.687649725+09:00","level":"INFO","msg":"stream: closed","id":"kcd128xp"}

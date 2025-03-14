@@ -1,0 +1,297 @@
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 6.847403526306152}
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 6.6638288497924805}
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 6.569420337677002}
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 6.520084381103516}
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 5.204070091247559}
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 1.1392931938171387}
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 1.3742773532867432}
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 1.0827876329421997}
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 1.1360161304473877}
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 29
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 25
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+{'epoch': 0, 'Loss/train_step': 1.080176591873169}
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Batch max_nodes: 27
+targetdataset torch.Size([512, 1])
+torch.Size([512, 1])
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_wave.py", line 122, in <module>
+    aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 404, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 373, in train
+    total_train_loss += loss.item() * batch_size
+KeyboardInterrupt

@@ -1,0 +1,110 @@
+{'epoch': 0, 'Loss/train_step': 6.82573938369751}
+{'epoch': 0, 'Loss/train_step': 6.675477504730225}
+{'epoch': 0, 'Loss/train_step': 6.251219272613525}
+{'epoch': 0, 'Loss/train_step': 1.8023693561553955}
+{'epoch': 0, 'Loss/train_step': 1.2441505193710327}
+{'epoch': 0, 'Loss/train_step': 1.164351463317871}
+{'epoch': 0, 'Loss/train_step': 1.0387778282165527}
+{'epoch': 0, 'Loss/train_step': 1.020597219467163}
+{'epoch': 0, 'Loss/train_step': 1.0142114162445068}
+{'epoch': 0, 'Loss/train_step': 1.1078433990478516}
+{'epoch': 0, 'Loss/train_step': 0.999181866645813}
+{'epoch': 0, 'Loss/train_step': 0.953557550907135}
+{'epoch': 0, 'Loss/train_step': 0.9682013988494873}
+{'epoch': 0, 'Loss/train_step': 1.115616798400879}
+{'epoch': 0, 'Loss/train_step': 1.0628737211227417}
+{'epoch': 0, 'Loss/train_step': 0.9547954797744751}
+{'epoch': 0, 'Loss/train_step': 1.0395382642745972}
+{'epoch': 0, 'Loss/train_step': 1.1978412866592407}
+{'epoch': 0, 'Loss/train_step': 0.9298958778381348}
+{'epoch': 0, 'Loss/train_step': 0.9780064821243286}
+{'epoch': 0, 'Loss/train_step': 0.9649996757507324}
+{'epoch': 0, 'Loss/train': 1.7216393901668974}
+{'epoch': 0, 'Loss/eval': 2.0469599817274293}
+{'epoch': 0, 'Loss/best_eval': 2.0469599817274293}
+{'epoch': 1, 'Loss/train_step': 1.0400793552398682}
+{'epoch': 1, 'Loss/train_step': 1.038137674331665}
+{'epoch': 1, 'Loss/train_step': 0.9917700886726379}
+{'epoch': 1, 'Loss/train_step': 1.0277096033096313}
+{'epoch': 1, 'Loss/train_step': 0.9886571168899536}
+{'epoch': 1, 'Loss/train_step': 0.9498312473297119}
+{'epoch': 1, 'Loss/train_step': 1.0117309093475342}
+{'epoch': 1, 'Loss/train_step': 1.041576862335205}
+{'epoch': 1, 'Loss/train_step': 0.965085506439209}
+{'epoch': 1, 'Loss/train_step': 1.0205501317977905}
+{'epoch': 1, 'Loss/train_step': 0.9655075073242188}
+{'epoch': 1, 'Loss/train_step': 0.9606209993362427}
+{'epoch': 1, 'Loss/train_step': 0.9752596020698547}
+{'epoch': 1, 'Loss/train_step': 0.9971569776535034}
+{'epoch': 1, 'Loss/train_step': 0.9800460934638977}
+{'epoch': 1, 'Loss/train_step': 0.9317493438720703}
+{'epoch': 1, 'Loss/train_step': 0.9612168073654175}
+{'epoch': 1, 'Loss/train_step': 0.9948554635047913}
+{'epoch': 1, 'Loss/train_step': 0.9645928144454956}
+{'epoch': 1, 'Loss/train_step': 0.9917423725128174}
+{'epoch': 1, 'Loss/train_step': 0.9931697845458984}
+{'epoch': 1, 'Loss/train': 0.99846715988126}
+{'epoch': 1, 'Loss/eval': 1.688786289283757}
+{'epoch': 1, 'Loss/best_eval': 1.688786289283757}
+{'epoch': 2, 'Loss/train_step': 0.9777921438217163}
+{'epoch': 2, 'Loss/train_step': 0.9596386551856995}
+{'epoch': 2, 'Loss/train_step': 1.013636589050293}
+{'epoch': 2, 'Loss/train_step': 0.9383493661880493}
+{'epoch': 2, 'Loss/train_step': 1.0292270183563232}
+{'epoch': 2, 'Loss/train_step': 1.439603328704834}
+{'epoch': 2, 'Loss/train_step': 1.076134204864502}
+{'epoch': 2, 'Loss/train_step': 1.016683578491211}
+{'epoch': 2, 'Loss/train_step': 1.0386722087860107}
+{'epoch': 2, 'Loss/train_step': 0.9803658127784729}
+{'epoch': 2, 'Loss/train_step': 1.001401662826538}
+{'epoch': 2, 'Loss/train_step': 0.993582010269165}
+{'epoch': 2, 'Loss/train_step': 1.026769757270813}
+{'epoch': 2, 'Loss/train_step': 1.0349375009536743}
+{'epoch': 2, 'Loss/train_step': 0.9940937757492065}
+{'epoch': 2, 'Loss/train_step': 0.9997493624687195}
+{'epoch': 2, 'Loss/train_step': 0.9815658330917358}
+{'epoch': 2, 'Loss/train_step': 1.0562230348587036}
+{'epoch': 2, 'Loss/train_step': 1.3958749771118164}
+{'epoch': 2, 'Loss/train_step': 1.3860026597976685}
+{'epoch': 2, 'Loss/train_step': 1.179288625717163}
+{'epoch': 2, 'Loss/train': 1.0765895507455174}
+{'epoch': 2, 'Loss/eval': 1.6577322353417745}
+{'epoch': 2, 'Loss/best_eval': 1.6577322353417745}
+{'epoch': 3, 'Loss/train_step': 1.0521256923675537}
+{'epoch': 3, 'Loss/train_step': 1.0083383321762085}
+{'epoch': 3, 'Loss/train_step': 1.0053741931915283}
+{'epoch': 3, 'Loss/train_step': 1.0169858932495117}
+{'epoch': 3, 'Loss/train_step': 1.0041673183441162}
+{'epoch': 3, 'Loss/train_step': 1.077643871307373}
+{'epoch': 3, 'Loss/train_step': 0.9784388542175293}
+{'epoch': 3, 'Loss/train_step': 1.0480670928955078}
+{'epoch': 3, 'Loss/train_step': 1.0383028984069824}
+{'epoch': 3, 'Loss/train_step': 1.0303542613983154}
+{'epoch': 3, 'Loss/train_step': 0.9695448875427246}
+{'epoch': 3, 'Loss/train_step': 1.0269086360931396}
+{'epoch': 3, 'Loss/train_step': 1.0743134021759033}
+{'epoch': 3, 'Loss/train_step': 1.0118803977966309}
+{'epoch': 3, 'Loss/train_step': 1.0767441987991333}
+{'epoch': 3, 'Loss/train_step': 1.0693142414093018}
+{'epoch': 3, 'Loss/train_step': 1.0287063121795654}
+{'epoch': 3, 'Loss/train_step': 0.9956348538398743}
+{'epoch': 3, 'Loss/train_step': 0.9848906397819519}
+{'epoch': 3, 'Loss/train_step': 1.0198023319244385}
+{'epoch': 3, 'Loss/train_step': 0.9844717979431152}
+{'epoch': 3, 'Loss/train': 1.0144898024299307}
+{'epoch': 3, 'Loss/eval': 1.8017675502997639}
+{'epoch': 4, 'Loss/train_step': 0.9646755456924438}
+{'epoch': 4, 'Loss/train_step': 0.9644350409507751}
+{'epoch': 4, 'Loss/train_step': 1.0138121843338013}
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_wave.py", line 121, in <module>
+    aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 404, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 368, in train
+    loss.backward()
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.10.13
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 16
+                - 23
+                - 55
+                - 62
+            "4": 3.10.13
+            "5": 0.19.7
+            "8":
+                - 5
+            "12": 0.19.7
+            "13": linux-x86_64
+BATCH_SIZE:
+    value: 512
+DATASET:
+    value: QM9
+DEPTH:
+    value: 8
+DEVICE:
+    value: cuda
+DROPOUT:
+    value: 0.1
+ETA_MIN:
+    value: 1e-07
+FOCUS:
+    value: gaussian
+HEADS:
+    value: 32
+LEARNING_RATE:
+    value: 0.0001
+MLP_DIM:
+    value: 512
+MODEL:
+    value: EdgeWaveSuperposition
+SCALE_MAX:
+    value: 5
+SCALE_MIN:
+    value: 0.3
+T_MAX:
+    value: 350
+VERBOSE:
+    value: true
+WEIGHT_DECAY:
+    value: 0.0001
+WIDTH_BASE:
+    value: 1.15

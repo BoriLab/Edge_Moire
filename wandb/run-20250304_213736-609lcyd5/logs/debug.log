@@ -1,0 +1,41 @@
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_setup.py:_flush():67] Configure stats pid to 728624
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/.config/wandb/settings
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_setup.py:_flush():67] Loading settings from /home/bori9691/2025/Edge_Moire/wandb/settings
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250304_213736-609lcyd5/logs/debug.log
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/bori9691/2025/Edge_Moire/wandb/run-20250304_213736-609lcyd5/logs/debug-internal.log
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:init():761] calling init triggers
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'MODEL': 'Moire', 'DATASET': 'QM9', 'DEPTH': 5, 'MLP_DIM': 256, 'HEADS': 16, 'FOCUS': 'gaussian', 'DROPOUT': 0.1, 'BATCH_SIZE': 512, 'LEARNING_RATE': 0.0005, 'WEIGHT_DECAY': 0.01, 'T_MAX': 200, 'ETA_MIN': 1e-07, 'DEVICE': 'cuda', 'SCALE_MIN': 0.6, 'SCALE_MAX': 3.0, 'WIDTH_BASE': 1.15, 'VERBOSE': True, '_wandb': {}}
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:init():784] starting backend
+2025-03-04 21:37:36,737 INFO    MainThread:728624 [wandb_init.py:init():788] sending inform_init request
+2025-03-04 21:37:36,739 INFO    MainThread:728624 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-04 21:37:36,739 INFO    MainThread:728624 [wandb_init.py:init():803] backend started and connected
+2025-03-04 21:37:36,740 INFO    MainThread:728624 [wandb_init.py:init():896] updated telemetry
+2025-03-04 21:37:36,743 INFO    MainThread:728624 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-04 21:37:37,158 INFO    MainThread:728624 [wandb_init.py:init():995] starting run threads in backend
+2025-03-04 21:37:37,192 INFO    MainThread:728624 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-04 21:37:37,192 INFO    MainThread:728624 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-04 21:37:37,192 INFO    MainThread:728624 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-04 21:37:37,192 INFO    MainThread:728624 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-04 21:37:37,193 INFO    MainThread:728624 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-04 21:40:25,034 WARNING MsgRouterThr:728624 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-04 21:40:25,035 INFO    MsgRouterThr:728624 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.

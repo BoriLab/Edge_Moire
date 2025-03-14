@@ -1,0 +1,78 @@
+{'epoch': 0, 'Loss/train_step': 6.883367538452148}
+{'epoch': 0, 'Loss/train_step': 1.0130972862243652}
+{'epoch': 0, 'Loss/train_step': 1.0813179016113281}
+{'epoch': 0, 'Loss/train_step': 1.0353028774261475}
+{'epoch': 0, 'Loss/train_step': 0.9366695880889893}
+{'epoch': 0, 'Loss/train_step': 0.9836987257003784}
+{'epoch': 0, 'Loss/train_step': 0.9391546845436096}
+{'epoch': 0, 'Loss/train_step': 0.9459488391876221}
+{'epoch': 0, 'Loss/train_step': 0.8862951993942261}
+{'epoch': 0, 'Loss/train_step': 0.883469820022583}
+{'epoch': 0, 'Loss/train_step': 0.8979983925819397}
+{'epoch': 0, 'Loss/train_step': 0.8202579021453857}
+{'epoch': 0, 'Loss/train_step': 0.8519582748413086}
+{'epoch': 0, 'Loss/train_step': 0.8444179892539978}
+{'epoch': 0, 'Loss/train_step': 0.8615453243255615}
+{'epoch': 0, 'Loss/train_step': 0.8701043128967285}
+{'epoch': 0, 'Loss/train_step': 0.8681058287620544}
+{'epoch': 0, 'Loss/train_step': 0.8160742521286011}
+{'epoch': 0, 'Loss/train_step': 0.8287274837493896}
+{'epoch': 0, 'Loss/train_step': 0.8261299133300781}
+{'epoch': 0, 'Loss/train_step': 0.8237281441688538}
+{'epoch': 0, 'Loss/train': 1.2315398555557024}
+{'epoch': 0, 'Loss/eval': 0.8838779700311719}
+{'epoch': 0, 'Loss/best_eval': 0.8838779700311719}
+{'epoch': 1, 'Loss/train_step': 0.8380633592605591}
+{'epoch': 1, 'Loss/train_step': 0.8373688459396362}
+{'epoch': 1, 'Loss/train_step': 0.8194819688796997}
+{'epoch': 1, 'Loss/train_step': 0.888248860836029}
+{'epoch': 1, 'Loss/train_step': 0.8160295486450195}
+{'epoch': 1, 'Loss/train_step': 0.8252159357070923}
+{'epoch': 1, 'Loss/train_step': 0.7734009027481079}
+{'epoch': 1, 'Loss/train_step': 0.834250271320343}
+{'epoch': 1, 'Loss/train_step': 0.8321903347969055}
+{'epoch': 1, 'Loss/train_step': 0.8167903423309326}
+{'epoch': 1, 'Loss/train_step': 0.7932037115097046}
+{'epoch': 1, 'Loss/train_step': 0.8080625534057617}
+{'epoch': 1, 'Loss/train_step': 0.8807944655418396}
+{'epoch': 1, 'Loss/train_step': 0.8076457977294922}
+{'epoch': 1, 'Loss/train_step': 0.80940181016922}
+{'epoch': 1, 'Loss/train_step': 0.8015503287315369}
+{'epoch': 1, 'Loss/train_step': 0.8083256483078003}
+{'epoch': 1, 'Loss/train_step': 0.815447211265564}
+{'epoch': 1, 'Loss/train_step': 0.8484402298927307}
+{'epoch': 1, 'Loss/train_step': 0.7938205599784851}
+{'epoch': 1, 'Loss/train_step': 0.808488130569458}
+{'epoch': 1, 'Loss/train': 0.8213162527656507}
+{'epoch': 1, 'Loss/eval': 0.7887339807639451}
+{'epoch': 1, 'Loss/best_eval': 0.7887339807639451}
+{'epoch': 2, 'Loss/train_step': 0.7811120748519897}
+{'epoch': 2, 'Loss/train_step': 0.8429958820343018}
+{'epoch': 2, 'Loss/train_step': 0.8570606112480164}
+{'epoch': 2, 'Loss/train_step': 0.7676185369491577}
+{'epoch': 2, 'Loss/train_step': 0.7358940839767456}
+{'epoch': 2, 'Loss/train_step': 0.7047724723815918}
+{'epoch': 2, 'Loss/train_step': 0.7636663913726807}
+{'epoch': 2, 'Loss/train_step': 0.7001470327377319}
+{'epoch': 2, 'Loss/train_step': 0.7085014581680298}
+{'epoch': 2, 'Loss/train_step': 0.7257380485534668}
+{'epoch': 2, 'Loss/train_step': 0.6793055534362793}
+{'epoch': 2, 'Loss/train_step': 0.6753478050231934}
+Traceback (most recent call last):
+  File "/home/bori9691/2025/Edge_Moire/train_ev.py", line 106, in <module>
+    aliquot = Aliquot(
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 208, in __call__
+    self.train(num_epochs, patience)
+  File "/home/bori9691/2025/Edge_Moire/utils/exp.py", line 128, in train
+    for step, tup in enumerate(self.train_dataloader):
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/bori9691/anaconda3/envs/gnn_env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/bori9691/2025/Edge_Moire/utils/dataset.py", line 162, in collate_batch
+    padded_adj_matrices = [
+  File "/home/bori9691/2025/Edge_Moire/utils/dataset.py", line 163, in <listcomp>
+    F.pad(adj, (0, max_nodes - adj.size(0), 0, max_nodes - adj.size(1)))
+KeyboardInterrupt
